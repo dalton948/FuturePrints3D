@@ -7,6 +7,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: black;
 }
 
 .center {
@@ -15,8 +16,17 @@ body {
 
 
 .divider {
-    background-color: #ffffff;
+    background-color: #070505;
     border-top: .3rem dotted;
     border-bottom: none;
     margin: 2rem auto;
+}
+
+
+#header {
+    width: 100%;
+}
+
+#topbar {
+    background-color: black;
 }
