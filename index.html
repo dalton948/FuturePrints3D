@@ -8,6 +8,7 @@
 
     <!--Style Sheets -->
     <link rel = "stylesheet" type = "text/css" href = "css/normalize.css" />
+    <link rel = "stylesheet" type = "text/css" href = "css/style.css" />
     <!--Stlye Sheets-->   
 </head>
 
@@ -21,8 +22,6 @@
                 <div class="topitem">Dalton Decker</div>
                 <div class="topitem"><a href="mailto:Dalton948@gmail.com">Dalton948@gmail.com</a></div>
                 <div class="topitem">tel: +1-502-724-0826</div>
-
-
             </div><!--topinfo-->
         </div><!--topbar-->
     </section>
@@ -82,7 +81,8 @@
             <input class="client_input" id="client_phone" type="tel" placeholder="Your Phone Number ">
             <textarea class= "client_input" id="client_message" rows="7" placeholder="Your Message..."></textarea>
             <div id="contactbuttons">
-                <input type="file" id="myFile" name="filename">
+                <label for="myfile">Select files:</label>
+                <input type="file" accept=".stl" id="myfile" name="myfile" multiple><br><br>
                 <button class="formsubmit" type="button">Send</button>
             </div>
         </div>

@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.center {
+    margin: 0 auto;
+}
+
+
+.divider {
+    background-color: #ffffff;
+    border-top: .3rem dotted;
+    border-bottom: none;
+    margin: 2rem auto;
+}
