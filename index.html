@@ -81,6 +81,7 @@
             <div><img src='images/gallery/gallery3.WEBP' class='imgs'></div>
             <div><img src='images/gallery/gallery4.WEBP' class='imgs'></div>
             <div><img src='images/gallery/gallery5.WEBP' class='imgs'></div>
+            <div><img src='images/gallery/gallery6.jpg' class='imgs'></div>
         </div>
     </section>       
     <!-- /Gallery-->
@@ -89,14 +90,14 @@
     <!-- Contact -->
         <div id="contactbox">
             <h3>Contact Us</h3>
-            <input class="client_input" id="client_name" type="text" placeholder="Your Name ">
-            <input class="client_input" id="client_email" type="email" placeholder="Your E-mail ">
-            <input class="client_input" id="client_phone" type="tel" placeholder="Your Phone Number ">
+            <input class="client_input" oninput="validateName()" id="client_name" type="text" placeholder="Your Name ">
+            <input class="client_input" oninput="validateEmail()" id="client_email" type="email" placeholder="Your E-mail ">
+            <input class="client_input" oninput="validatePhone()" id="client_phone" type="tel" placeholder="Your Phone Number ">
             <textarea class="client_input" id="client_message" rows="7" placeholder="Your Message..."></textarea>
             <div id="contactbuttons">
                 <label for="myfile">Select files:</label>
                 <input class="stl" type="file" accept=".stl" id="myfile" name="myfile" multiple><br><br>
-                <button class="formsubmit" type="button">Send</button>
+                <button class="formsubmit" onclick="submitButton()" type="button">Send</button>
             </div>
         </div>
     <!-- /Contact -->
@@ -110,6 +111,8 @@
         </div>
     </section>
     <!-- /Footer -->
+
+    <script src="../js/app.js"></script>
 </body>
 
 </html>
