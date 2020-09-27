@@ -275,6 +275,10 @@ body {
 		#contactbox {
 			width: 60%;
         }
+    #wrapper {
+        width: 80%;
+        margin: 0 auto;
+    }    
     #about {
         padding: 0 1em 0 1em;
         width: 60%;
@@ -284,8 +288,7 @@ body {
         width: 60%;
     }
     .projectsbox {
-        padding: 0 1em 0 1em;\
-        border-left: solid;
+        padding: 0 1em 0 1em;
     }
     @-webkit-keyframes glow {
         from {
@@ -295,11 +298,7 @@ body {
         to {
           text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
         }
-      } 
-        
+      }        
   }
 
-
-
-
-
+}

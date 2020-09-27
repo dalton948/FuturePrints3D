@@ -16,16 +16,15 @@
 
 <body>
 
-    <!--Header-->
-    <section id="header">
-        <div id="topinfo"></div>
+    <div id="wrapper">
+        <!--Header-->
+        <section id="header">
+            <div id="topinfo"></div>
             <div><img src='images/headerimg.jpg' class="mainimg"></div>
             <div class="topname glow">Future Prints 3D</div>
-        </div>
-        <!--topinfo-->
+    <!--topinfo-->
     </section>
     <!--/Header-->
-
     <!--About-->
     <hr class="divider" width="80%">
     <section id="about">
@@ -67,14 +66,14 @@
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec elementum tortor. Donec ullamcorper
                     convallis ex, in pellentesque sapien molestie sed. Sed id mauris consequat, commodo nulla sit amet,
                     luctus erat. Cras ligula orci, mollis in massa ut, fermentum rhoncus metus. Fusce diam justo,
-                    posuere vel lectus in, accumsan lobortis sem. Nulla facilisi. 
+                    posuere vel lectus in, accumsan lobortis sem. Nulla facilisi.
                 </div>
             </div>
         </div>
     </section>
     <!--/Columns -->
     <!--Gallery-->
-    <section class="gallery">  
+    <section class="gallery">
         <div class="gallerybox">
             <div><img src='images/gallery/gallery1.webp' class='imgs'></div>
             <div><img src='images/gallery/gallery2.webp' class='imgs'></div>
@@ -83,25 +82,26 @@
             <div><img src='images/gallery/gallery5.webp' class='imgs'></div>
             <div><img src='images/gallery/gallery6.jpg' class='imgs'></div>
         </div>
-    </section>       
+    </section>
     <!-- /Gallery-->
-    
+
 
     <!-- Contact -->
-        <div id="contactbox">
-            <h3>Contact Us</h3>
-            <input class="client_input" oninput="validateName()" id="client_name" type="text" placeholder="Your Name ">
-            <input class="client_input" oninput="validateEmail()" id="client_email" type="email" placeholder="Your E-mail ">
-            <input class="client_input" oninput="validatePhone()" id="client_phone" type="tel" placeholder="Your Phone Number ">
-            <textarea class="client_input" id="client_message" rows="7" placeholder="Your Message..."></textarea>
-            <div id="contactbuttons">
-                <label for="myfile">Select files:</label>
-                <input class="stl" type="file" accept=".stl" id="myfile" name="myfile" multiple><br><br>
-                <button class="formsubmit" onclick="submitButton()" type="button">Send</button>
-            </div>
+    <div id="contactbox">
+        <h3>Contact Us</h3>
+        <input class="client_input" oninput="validateName()" id="client_name" type="text" placeholder="Your Name ">
+        <input class="client_input" oninput="validateEmail()" id="client_email" type="email" placeholder="Your E-mail ">
+        <input class="client_input" oninput="validatePhone()" id="client_phone" type="tel"
+            placeholder="Your Phone Number ">
+        <textarea class="client_input" id="client_message" rows="7" placeholder="Your Message..."></textarea>
+        <div id="contactbuttons">
+            <label for="myfile">Select files:</label>
+            <input class="stl" type="file" accept=".stl" id="myfile" name="myfile" multiple><br><br>
+            <button class="formsubmit" onclick="submitButton()" type="button">Send</button>
         </div>
+    </div>
     <!-- /Contact -->
-
+    </div>
     <!-- Footer -->
     <section id="footer">
         <div class="upper"></div>
