@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,22 +8,21 @@
     <title>Future Prints 3D</title>
 
     <!--Style Sheets -->
-    <link rel = "stylesheet" type = "text/css" href = "css/normalize.css" />
-    <link rel = "stylesheet" type = "text/css" href = "css/style.css" />
-    <!--/Style Sheets-->   
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <!--/Style Sheets-->
 </head>
 
 
 <body>
-    
+
     <!--Header-->
     <section id="header">
-        <div id="topbar">
-            <div id="topinfo">
-                <div><img src= 'images/headerimg.jpg' class="mainimg"></div>
-                <div class="topname ">Future Prints 3D</div>
-            </div><!--topinfo-->
-        </div><!--topbar-->
+        <div id="topinfo"></div>
+            <div><img src='images/headerimg.jpg' class="mainimg"></div>
+            <div class="topname glow">Future Prints 3D</div>
+        </div>
+        <!--topinfo-->
     </section>
     <!--/Header-->
 
@@ -31,10 +31,14 @@
     <section id="about">
         <div class="aboutbox">
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ipsum tortor, molestie in tincidunt ac, maximus malesuada arcu. Vivamus eget erat lacinia libero venenatis laoreet. Nullam vitae est orci. Fusce blandit interdum turpis. Fusce at augue ultricies, convallis est id, imperdiet ligula. Nunc ut nunc non augue feugiat hendrerit. Maecenas eget enim efficitur, dictum velit in, dignissim erat. Maecenas ut bibendum lectus. Nunc ac tellus est.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ipsum tortor, molestie in tincidunt ac,
+                maximus malesuada arcu. Vivamus eget erat lacinia libero venenatis laoreet. Nullam vitae est orci. Fusce
+                blandit interdum turpis. Fusce at augue ultricies, convallis est id, imperdiet ligula. Nunc ut nunc non
+                augue feugiat hendrerit. Maecenas eget enim efficitur, dictum velit in, dignissim erat. Maecenas ut
+                bibendum lectus. Nunc ac tellus est.
             </p>
         </div>
-        
+
     </section>
     <hr class="divider" width="80%">
     <!--/About-->
@@ -43,61 +47,69 @@
     <section id="projects">
         <div class="projectsbox">
             <div class="projects">
-                <alt= class="fas fa-cube"></i>
-                <div class="projecttitle">3D Printing projects</div>
+                <span>
+                    <alt= class="fas fa-cube"></i>
+                </span>
+                <div class="columnhead">3D Printing projects</div>
                 <div class="projecteinfo">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec elementum tortor. Donec ullamcorper convallis ex, in pellentesque sapien molestie sed. Sed id mauris consequat, commodo nulla sit amet, luctus erat. Cras ligula orci, mollis in massa ut, fermentum rhoncus metus. Fusce diam justo, posuere vel lectus in, accumsan lobortis sem. Nulla facilisi.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec elementum tortor. Donec ullamcorper
+                    convallis ex, in pellentesque sapien molestie sed. Sed id mauris consequat, commodo nulla sit amet,
+                    luctus erat. Cras ligula orci, mollis in massa ut, fermentum rhoncus metus. Fusce diam justo,
+                    posuere vel lectus in, accumsan lobortis sem. Nulla facilisi.
                 </div>
             </div>
             <div class="Collaboration">
-                <alt= class="fas fa-cubes"></i>
-                <div class="collaborationtitle">Collaboration Prints</div>
+                <span>
+                    <alt= class="fas fa-cubes"></i>
+                </span>
+                <div class="columnhead">Collaboration Prints</div>
                 <div class="collaborationinfo">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec elementum tortor. Donec ullamcorper convallis ex, in pellentesque sapien molestie sed. Sed id mauris consequat, commodo nulla sit amet, luctus erat. Cras ligula orci, mollis in massa ut, fermentum rhoncus metus. Fusce diam justo, posuere vel lectus in, accumsan lobortis sem. Nulla facilisi.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec elementum tortor. Donec ullamcorper
+                    convallis ex, in pellentesque sapien molestie sed. Sed id mauris consequat, commodo nulla sit amet,
+                    luctus erat. Cras ligula orci, mollis in massa ut, fermentum rhoncus metus. Fusce diam justo,
+                    posuere vel lectus in, accumsan lobortis sem. Nulla facilisi. 
                 </div>
             </div>
         </div>
     </section>
     <!--/Columns -->
     <!--Gallery-->
-    <section id="gallery">
+    <section class="gallery">  
         <div class="gallerybox">
-            <div><img src= 'images/gallery/gallery1.WEBP'></div>
-            <div><img src= 'images/gallery/gallery2.WEBP'></div>
-            <div><img src= 'images/gallery/gallery3.WEBP'></div>
-            <div><img src= 'images/gallery/gallery4.WEBP'></div>
-            <div><img src= 'images/gallery/gallery5.WEBP'></div>
+            <div><img src='images/gallery/gallery1.WEBP' class='imgs'></div>
+            <div><img src='images/gallery/gallery2.WEBP' class='imgs'></div>
+            <div><img src='images/gallery/gallery3.WEBP' class='imgs'></div>
+            <div><img src='images/gallery/gallery4.WEBP' class='imgs'></div>
+            <div><img src='images/gallery/gallery5.WEBP' class='imgs'></div>
         </div>
-    </section>
+    </section>       
     <!-- /Gallery-->
+    
 
     <!-- Contact -->
-    <section id="contact">
         <div id="contactbox">
             <h3>Contact Us</h3>
             <input class="client_input" id="client_name" type="text" placeholder="Your Name ">
             <input class="client_input" id="client_email" type="email" placeholder="Your E-mail ">
             <input class="client_input" id="client_phone" type="tel" placeholder="Your Phone Number ">
-            <textarea class= "client_input" id="client_message" rows="7" placeholder="Your Message..."></textarea>
+            <textarea class="client_input" id="client_message" rows="7" placeholder="Your Message..."></textarea>
             <div id="contactbuttons">
                 <label for="myfile">Select files:</label>
-                <input class= "stl" type="file" accept=".stl" id="myfile" name="myfile" multiple><br><br>
+                <input class="stl" type="file" accept=".stl" id="myfile" name="myfile" multiple><br><br>
                 <button class="formsubmit" type="button">Send</button>
             </div>
         </div>
-    </section>
     <!-- /Contact -->
 
     <!-- Footer -->
     <section id="footer">
         <div class="upper"></div>
-            <div class="lower">
-                <div class="copyright">&copy Copyright 2020 Future Prints 3D</div>
-                <div class="credit">Website Designed by Dalton Decker</a></div>
-            </div>
+        <div class="lower">
+            <div class="copyright">&copy Copyright 2020 Future Prints 3D</div>
+            <div class="credit">Website Designed by Dalton Decker</a></div>
+        </div>
     </section>
     <!-- /Footer -->
- 
-    
 </body>
+
 </html>
