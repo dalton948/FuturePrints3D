@@ -17,12 +17,11 @@
 <body>
 
     <div id="wrapper">
-        <!--Header-->
+    <!--Header-->
         <section id="header">
             <div id="topinfo"></div>
             <div><img src='images/headerimg.jpg' class="mainimg"></div>
             <div class="topname glow">Future Prints 3D</div>
-    <!--topinfo-->
     </section>
     <!--/Header-->
     <!--About-->
@@ -50,7 +49,7 @@
                     <alt= class="fas fa-cube"></i>
                 </span>
                 <div class="columnhead">3D Printing projects</div>
-                <div class="projecteinfo">
+                <div class="projecteinfo columnText">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec elementum tortor. Donec ullamcorper
                     convallis ex, in pellentesque sapien molestie sed. Sed id mauris consequat, commodo nulla sit amet,
                     luctus erat. Cras ligula orci, mollis in massa ut, fermentum rhoncus metus. Fusce diam justo,
@@ -62,7 +61,7 @@
                     <alt= class="fas fa-cubes"></i>
                 </span>
                 <div class="columnhead">Collaboration Prints</div>
-                <div class="collaborationinfo">
+                <div class="collaborationinfo columnText">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec elementum tortor. Donec ullamcorper
                     convallis ex, in pellentesque sapien molestie sed. Sed id mauris consequat, commodo nulla sit amet,
                     luctus erat. Cras ligula orci, mollis in massa ut, fermentum rhoncus metus. Fusce diam justo,
@@ -72,20 +71,49 @@
         </div>
     </section>
     <!--/Columns -->
-    <!--Gallery-->
-    <section class="gallery">
-        <div class="gallerybox">
-            <div><img src='images/gallery/gallery1.webp' class='imgs'></div>
-            <div><img src='images/gallery/gallery2.webp' class='imgs'></div>
-            <div><img src='images/gallery/gallery3.webp' class='imgs'></div>
-            <div><img src='images/gallery/gallery4.webp' class='imgs'></div>
-            <div><img src='images/gallery/gallery5.webp' class='imgs'></div>
-            <div><img src='images/gallery/gallery6.jpg' class='imgs'></div>
-            <div><img src='images/gallery/gallery7.jpg' class='imgs'></div>
-        </div>
-    </section>
-    <!-- /Gallery-->
+    <!-- Slideshow container -->
+<div class="slideshow-container">
 
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 5</div>
+      <img src='images/gallery/gallery1.webp' style="width:100%">
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 5</div>
+      <img src='images/gallery/gallery2.webp' style="width:100%">
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 5</div>
+      <img src='images/gallery/gallery3.webp' style="width:100%">
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">4 / 5</div>
+        <img src='images/gallery/gallery4.webp' style="width:100%">
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">5 / 5</div>
+        <img src='images/gallery/gallery5.webp' style="width:100%">
+      </div>
+  
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+  
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+    <span class="dot" onclick="currentSlide(5)"></span>
+  </div>
 
     <!-- Contact -->
     <div id="contactbox">
@@ -112,7 +140,6 @@
         </div>
     </section>
     <!-- /Footer -->
-
     <script src="js/app.js"></script>
 </body>
 
