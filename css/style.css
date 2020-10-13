@@ -363,7 +363,7 @@ body {
     .slideshow-container {
         margin-left: 10%;
         margin-right: 10%;
-        margin: auto;
+        margin: 0 auto;
     }
     @-webkit-keyframes glow {
         from {
